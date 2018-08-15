@@ -1,0 +1,12 @@
+<?php
+$ref = $_SERVER['HTTP_HOST'];
+if ($ref == "www.school.com")	{ header('Location: school.html'); }
+if ($ref == "www.testing4.com")  { header('Location: peets.html'); }
+if ($ref == "www.testing5.com")  { header('Location: peets.html'); }
+if ($ref == "www.hello.com")  { header('Location: peets.html'); }
+if ($ref == "www.test20.com")  { header('Location: demo.html'); }
+if ($ref == "www.test30.com")  { header('Location: demo.html'); }
+if ($ref == "www.test40.com")  { header('Location: demo.html'); }
+if ($ref == "www.demo.com")  { header('Location: demo.html'); }
+require('peets.html');
+?>
